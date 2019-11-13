@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="19" type="collection">
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="21" type="collection">
         <element label="New field 1" max_length="40" name="new_field_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="encode_utf8=false" dependent="u_reference_1" dependent_on_field="u_reference_1" label="NeedIT Task" max_length="32" name="u_reference_1" reference="x_58872_needit_needit_task" type="reference" use_dependent_field="true"/>
